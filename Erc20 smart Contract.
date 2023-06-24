@@ -16,9 +16,9 @@ interface IERC20 {
 }
 
 
-contract ERC20Basic is IERC20 {
+contract ElishaToken is IERC20 {
 
-    string public constant name = "Elisha Token";
+    string public constant name = "ElishaToken";
     string public constant symbol = "Elite";
     uint8 public constant decimals = 18;
 
